@@ -105,6 +105,29 @@ AAPL's ending portfolio balance remained three folds of the original investment.
 
 Both stocks generated better Win rate with SMA strategy(Apple: 66% and SPY 77%) while MACD has more consistency among trades. 
 
+
+### Incomplete Stratagy:
+
+The bollinger bands stratagy was not completed. We ran into many problems. We eventually managed to use the stratagy with backtesting.py during the last day of class, but still needed more adjusting.
+
+The stratagy:
+
+When price is above the bollinger bands, enter for a short.
+When price goes below the sma 20, buy the shares that you shorted.
+When the price is below the lower band, buy.
+When the price goes above the sma 20, sell.
+
+The stratagy managed to give us an average return of 3%.
+Although thats still a profitable stratagy, that ended up being a terrible return.
+The models came out terrible, we were not sure if it was becuase of something that we were missing.
+The return of this options stratagy does not include commision, delta,theta, stock volitility, and other aspects that effect options.
+
+
+
+
+
+
+
 ### Conclusion:
 
 Based upon the comparative performance anlysis overall MACD performed fairly decent. The models were trained well and performed efficiently on the testing data. 
